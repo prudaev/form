@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form test task</title>
+    <link rel="stylesheet" href="css/null.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form action="/" method="post" id="form">
+    <div class="container">
+        <div class="block-form">
+            <div class="title-form">
+                <h4>Регистрация</h4>
+            </div>
+            <p>Заполните Ваши данные</p>
+
+                <div class="placeholder-container">
+
+                    <div class="placeholder-block1">
+                        <input name ="name" class="in-style" type="text" placeholder="Имя"> 
+                        <input name ="password" class="in-style" type="password" placeholder="Пароль"> 
+                    </div>
+
+                    <!-- value дописать к input-->
+                    <div class="placeholder-block2">
+                        <input name ="email" class="in-style" type="text" placeholder="Email"> 
+                        <input name ="role" class="in-style" type="text" placeholder="Должность"> 
+                        <input name ="passwordrepeat" class="in-style" type="password" placeholder="Повторите пароль"> 
+                    </div>
+                    
+                </div>
+
+                <div class="wrapper-offer">
+                    <div class="offer-block1">
+
+                        <div class="exper">
+                            <label class="switch">
+                                <input id="check" type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+    
+                            <div class="block1-item1">Хотите чтобы Ваш профиль видели другие участники платформы?</div>
+                        </div>
+                        
+                        <div class="block1-item2">Включает профиль для просмотра другими пользователями по ссылке</div>
+                        
+                    </div>
+
+                    <div class="offer-block2">
+                        <div class="offer-check">
+                            <input name="checkboxmod" class="inp-check" type="checkbox"  checked="checked" required/>
+                            <label>Регистрируясь, Вы соглашаетесь с <a href="#">политикой конфиденциальности</a> <br> и обработкой <a href="">персональных данных</a></label>
+                        </div>
+                        <button type="submit" id="buttonbtn" class="btn">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js.js"></script>
+</body>
+</html>
